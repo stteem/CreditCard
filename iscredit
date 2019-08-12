@@ -264,7 +264,7 @@
 	  }
     /* some code for detectCardType */
 		  /*
-      let regex4 = /^4/;
+      		let regex4 = /^4/;
 		  let regex5 = /^5/;
 		  let dataCreditCard = document.querySelector("[data-credit-card]");
 		  let dataCardType = document.querySelector.("[data-card-type]");
@@ -375,7 +375,7 @@ const smartInput = (event, fieldIndex, fields) => {
 
 	  const enableSmartTyping = () => {
 		  //const inputArray = [];
-		  const inputFields = document.querySelectorAll('input');
+		  const inputFields = document.querySelectorAll('[data-cc-info] input');
 		  inputFields.forEach((field, index, fields) => {
 			  field.addEventListener('keydown', (event) => {
 				  smartInput(event, index, fields);
